@@ -1,0 +1,16 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+
+# Ignore heavy AI model files, checkpoints, and datasets
+*.pt
+*.pth
+*.pkl
+*.h5
+*.csv
+*.json
+
+# Ignore Mac system files
+.DS_Store
